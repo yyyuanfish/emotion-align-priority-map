@@ -113,5 +113,3 @@ Outputs: verbal response + environmental cue (light/sound)
 - Emotion detection and plan recommendation can be delegated to an LLM via `utils/llm_stub.LLMEmotionAnalyzer`; the default configuration enables a stub provider that can be replaced with a real model while keeping the control flow unchanged.
 - Telemetry (`telemetry.jsonl`) captures the full Plan → Localize → Policy trace per turn, supporting offline diagnostics even for single-shot runs.
 
----
-(Draft translated to English; let me know if any sections need further expansion.) 
